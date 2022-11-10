@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 public class Task_4 {
     public static void main(String[] args) {
 
-
         String str = "ab abab abab abababab abea";
         String strPattern = "[ab]\\w+";
 
@@ -17,7 +16,6 @@ public class Task_4 {
         while (matcher.find()){
             System.out.println(matcher.group());
         }
-
 
         System.out.println();
         String strPattern2 = "ab+";
@@ -30,7 +28,5 @@ public class Task_4 {
         while (matcher2.find()){
             System.out.println(matcher2.group());
         }
-
-
     }
 }
