@@ -4,7 +4,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task_2 {
-
     public static void main(String[] args) {
 
         String strPattern = ".+\\.com";

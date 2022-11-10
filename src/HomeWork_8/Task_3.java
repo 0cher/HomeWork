@@ -10,7 +10,6 @@ public class Task_3 {
         String str = "ahb acb aeb aeeb adcb axeb";
         String strPattern = "a.b";
 
-
         Pattern pattern = Pattern.compile(strPattern);
         Matcher matcher = pattern.matcher(str);
 
