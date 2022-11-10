@@ -5,6 +5,7 @@ public class Task_1 {
 
             int a = 3;
             int b = 56;
+
             StringBuilder stringBuilder = new StringBuilder();
 
             stringBuilder.append(a).append("+").append(b).append("=").append(a + b).append("\n");
@@ -13,13 +14,11 @@ public class Task_1 {
 
             for (int i = 0; i < stringBuilder.length(); i++) {
                 if (stringBuilder.indexOf("=") != -1) {
-                    stringBuilder.replace(stringBuilder.indexOf("="), stringBuilder.indexOf("=") + 1, " ровно ");
+                    stringBuilder.replace(stringBuilder.indexOf("="), stringBuilder.indexOf("=") + 1, " равно ");
                 }
             }
-
             System.out.println(stringBuilder);
         }
-
     }
 
 
