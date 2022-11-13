@@ -4,11 +4,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task_3 {
-
     public static void main(String[] args) {
 
         String str = "ahb acb aeb aeeb adcb axeb";
-        String strPattern = "a.b";
+        String strPattern = "^a.e";
 
         Pattern pattern = Pattern.compile(strPattern);
         Matcher matcher = pattern.matcher(str);
@@ -16,6 +15,5 @@ public class Task_3 {
         while (matcher.find()){
             System.out.println(matcher.group());
         }
-
     }
 }

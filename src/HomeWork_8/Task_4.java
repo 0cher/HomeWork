@@ -16,7 +16,6 @@ public class Task_4 {
         while (matcher.find()){
             System.out.println(matcher.group());
         }
-
         System.out.println();
         String strPattern2 = "ab+";
 

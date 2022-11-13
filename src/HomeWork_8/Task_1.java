@@ -17,7 +17,6 @@ public class Task_1 {
                     stringBuilder.replace(stringBuilder.indexOf("="), stringBuilder.indexOf("=") + 1, " равно ");
                 }
             }
-
             System.out.println(stringBuilder);
         }
     }
