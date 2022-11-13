@@ -1,4 +1,4 @@
-package HomeWork_8.Expection;
+package HomeWork_8.Exception;
 
 import java.util.Scanner;
 
