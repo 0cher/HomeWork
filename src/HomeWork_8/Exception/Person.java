@@ -13,7 +13,7 @@ public class Person {
         return nameSurname;
     }
     public void setAgeNameSurname (String ageNameSurname) throws IncorrectInfoException{
-        String patternNameSurname = "([\\wа-яА-Я]+),?\s([\\wа-яА-Я]+),?\s.+";
+        String patternNameSurname = "([\\wа-яА-Я]{0,100}),?\s([\\wа-яА-Я]{0,100}),?\s.+";
         Pattern patternNS = Pattern.compile(patternNameSurname);
         Matcher matcherNS = patternNS.matcher(ageNameSurname);
         if (!matcherNS.matches()){
