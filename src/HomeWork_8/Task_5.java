@@ -35,8 +35,5 @@ public class Task_5 {
         Matcher matcher_2 = pattern_2.matcher(textDate);
 
         System.out.println(matcher_2.matches());
-
-
-
     }
 }

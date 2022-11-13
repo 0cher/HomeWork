@@ -3,7 +3,6 @@ package HomeWork_8.Exception;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args)  {
 
         Scanner scan = new Scanner(System.in);
@@ -20,6 +19,5 @@ public class Main {
         }
         System.out.println("Мы Вас приветствуем "+person.getNameSurname());
         System.out.println("Ваш возраст: " +person.getAge());
-
     }
 }
