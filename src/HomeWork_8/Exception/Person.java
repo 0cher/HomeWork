@@ -27,8 +27,8 @@ public class Person {
         }
         if (matcherNS.matches()&&matcherA.matches()){
             this.nameSurname = matcherNS.group(1).substring(0,1).toUpperCase()+
-            matcherNS.group(1)+" "+matcherNS.group(2).substring(0,1).toUpperCase()+
-                    matcherNS.group(2);
+            matcherNS.group(1).substring(1)+" "+matcherNS.group(2).substring(0,1).toUpperCase()+
+                    matcherNS.group(2).substring(1);
             this.age = Integer.parseInt(matcherA.group(1));
         }
     }
