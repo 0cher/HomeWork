@@ -3,6 +3,8 @@ package HomeWork_9.Task_3;
 import java.util.HashMap;
 import java.util.Map;
 
+import static HomeWork_9.Task_3.Product.getItem;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,10 +14,11 @@ public class Main {
       productMap.put(2, new Product("Стул",4));
       productMap.put(3, new Product("Диван",1));
 
-        for (Map.Entry<Integer, Product> item : productMap.entrySet()){
-            System.out.printf("Ключ: %s, продукт: %s, количество %d\n",item.getKey(),
-                    item.getValue().getName(), item.getValue().getAmountOfGoods());
-        }
+//        for (Map.Entry<Integer, Product> item : productMap.entrySet()){
+//            System.out.printf("Ключ: %s, продукт: %s, количество %d\n",item.getKey(),
+//                    item.getValue().getName(), item.getValue().getAmountOfGoods());
+//        }
 
+    getItem(productMap);
     }
 }

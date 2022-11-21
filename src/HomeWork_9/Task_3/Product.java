@@ -1,5 +1,7 @@
 package HomeWork_9.Task_3;
 
+import java.util.Map;
+
 public class Product {
   private String name;
     private int amountOfGoods;
@@ -34,5 +36,11 @@ public class Product {
                 "name='" + name + '\'' +
                 ", amountOfGoods=" + amountOfGoods +
                 '}';
+    }
+    public static void getItem (Map<Integer, Product> productMap) {
+        for (Map.Entry<Integer, Product> item : productMap.entrySet()){
+            System.out.printf("Ключ: %s, продукт: %s, количество %d\n",item.getKey(),
+                    item.getValue().getName(), item.getValue().getAmountOfGoods());
+        }
     }
 }
