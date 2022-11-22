@@ -8,7 +8,6 @@ public class Book implements Serializable {
     String bookDescription;
     int bookId;
     int numberBook;
-
     public Book(String bookName, String bookAuthor, String bookDescription,
                 int bookId, int numberBook){
 
