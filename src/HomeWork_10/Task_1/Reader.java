@@ -3,8 +3,6 @@ package HomeWork_10.Task_1;
 import java.io.Serializable;
 import java.util.Scanner;
 public class Reader implements Serializable {
-
-
    private transient Scanner scan = new  Scanner(System.in);
    Book[] books;
    private String name, surname, dateOfBirth;
