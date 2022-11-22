@@ -32,7 +32,6 @@ public class Main {
         Book[] books = new Book[10];
 
         int id=1;
-       readers.put(1, new Reader("Aleksejs", "Ziznevskis", 26440725, "10.11",1));
 
         books[0] = new Book("Мастер и Маргарита","Михаил Булгаков",	"Роман",0, 1);
         books[1] = new Book("Война и мир","Лев Николаевич Толстой","Роман-эпопея",1, 4);
